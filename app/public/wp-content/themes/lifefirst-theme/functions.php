@@ -48,10 +48,10 @@ add_action('after_setup_theme', 'lifefirst_setup');
  * Enqueue scripts and styles
  */
 function lifefirst_scripts() {
-    // Google Fonts - Noto Sans JP
+    // Google Fonts - Shippori Mincho (Display) + Noto Sans JP (Body)
     wp_enqueue_style(
         'google-fonts',
-        'https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap',
+        'https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;600;700&family=Shippori+Mincho:wght@400;500;600&display=swap',
         array(),
         null
     );
