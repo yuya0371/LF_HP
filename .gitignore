@@ -1,0 +1,79 @@
+# ===================
+# Local by Flywheel
+# ===================
+conf/
+logs/
+
+# ===================
+# WordPress Core
+# ===================
+app/public/wp-admin/
+app/public/wp-includes/
+app/public/wp-*.php
+app/public/index.php
+app/public/license.txt
+app/public/readme.html
+app/public/xmlrpc.php
+app/public/.htaccess
+
+# Local specific
+app/public/local-xdebuginfo.php
+
+# ===================
+# wp-config (contains sensitive data)
+# ===================
+app/public/wp-config.php
+
+# ===================
+# wp-content
+# ===================
+# Uploads (large media files)
+app/public/wp-content/uploads/
+
+# Cache
+app/public/wp-content/cache/
+app/public/wp-content/advanced-cache.php
+app/public/wp-content/object-cache.php
+app/public/wp-content/wp-cache-config.php
+
+# Backup plugins
+app/public/wp-content/backup*/
+app/public/wp-content/backups/
+
+# Default themes (keep your custom themes)
+app/public/wp-content/themes/twenty*/
+
+# Default plugins (keep your custom plugins)
+# app/public/wp-content/plugins/akismet/
+# app/public/wp-content/plugins/hello.php
+
+# Upgrade folder
+app/public/wp-content/upgrade/
+
+# ===================
+# OS & Editor files
+# ===================
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# ===================
+# Node.js (if using build tools)
+# ===================
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# ===================
+# Misc
+# ===================
+*.log
+*.sql
+*.sql.gz
+.env
